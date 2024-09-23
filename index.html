@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="calculator" class="">
+      <input  id="display" readonly>
+      <div id="buttons" >
+    <!--1-->     <button onclick="appendtodisplay('+')" class="optr-btn">+</button>   
+    <!--2-->     <button onclick="appendtodisplay('7')">7</button>   
+    <!--3-->     <button onclick="appendtodisplay('8')">8</button>   
+    <!--4-->     <button onclick="appendtodisplay('9')">9</button>   
+    <!--5-->     <button onclick="appendtodisplay('-')" class="optr-btn">-</button>   
+    <!--6-->     <button onclick="appendtodisplay('4')">4</button>   
+    <!--7-->     <button onclick="appendtodisplay('5')">5</button>   
+    <!--8-->     <button onclick="appendtodisplay('6')">6</button>   
+    <!--9-->     <button onclick="appendtodisplay('*')" class="optr-btn">*</button>   
+    <!--10-->    <button onclick="appendtodisplay('1')">1</button>   
+    <!--11-->    <button onclick="appendtodisplay('2')">2</button>   
+    <!--12-->    <button onclick="appendtodisplay('3')">3</button>   
+    <!--13-->    <button onclick="appendtodisplay('/')" class="optr-btn">/</button>   
+    <!--14-->    <button onclick="appendtodisplay('0')">0</button>  
+    <!--14-->    <button onclick="appendtodisplay('.')">.</button>   
+                 <button onclick="calculate()">=</button>
+                 <button onclick="cleardisplay()" class="optr-btn">CLR</button>
+      </div>
+  </div>
+<script src="app.js"></script>
+</body>
+</html>
